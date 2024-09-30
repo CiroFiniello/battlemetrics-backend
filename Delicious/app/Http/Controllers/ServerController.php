@@ -11,7 +11,7 @@ class ServerController extends Controller
     public function index()
     {
         // Token di accesso
-        $token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImYyYTBiNjJlM2NhMGYzMWIiLCJpYXQiOjE3Mjc1MjMxMTEsIm5iZiI6MTcyNzUyMzExMSwiaXNzIjoiaHR0cHM6Ly93d3cuYmF0dGxlbWV0cmljcy5jb20iLCJzdWIiOiJ1cm46dXNlcjo5MTczNzYifQ.-UA253YaIeeudEKLQRGPLQrHsVl8WzCQ2giHb-72Yy8';
+        $token = 'insert your token';
 
         // Chiamata API a BattleMetrics per ottenere i server di Rust
         $response = Http::withToken($token)
